@@ -1,0 +1,39 @@
+$blanco: white;
+$font-type: "Open Sans",Arial,Helvetica,sans-serif;
+$img: rgb(31,31,31);
+
+h1{font-family: $font-type;}
+
+.hh{
+  background-color:$img * 1.5;
+}
+
+body{
+  font-family:$font-type;
+  color:$blanco;
+  font-weight: 200;
+}
+
+
+.huevo{
+  //margin-left: 9%;
+}
+
+.demo{
+  color:white;
+  font-size: 23px;
+
+  //margin-left:1%;
+}
+
+
+.btn{
+  //margin-left:1%;
+  color:black;
+}
+
+
+.btn:hover{
+  background-color:firebrick;
+  color:#ffffff;
+}
