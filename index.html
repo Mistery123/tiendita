@@ -1,36 +1,34 @@
+<!DOCTYPE html>
+
 <html>
 <head>
-    <title> Tiendita </title></head>
-     <meta charset="utf-8">
+  <title> Tiendita </title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<body style="background-image:url('tiendala.JPG')">
-    <h1 style="background-color:LightGray;" align="center">Bienvenido al sistema de abarrotes "La tiendita".</h1>
+  
+  <script src="./main.js"> </script>
 
-  <p style="color:bisque" align="left"><b>HUEVO</b></p>
-     <script>
-    function economico() {
-    document.getElementById("demo").innerHTML = "29";
-}  
-         function sanjuan() {
-    document.getElementById("demo").innerHTML = "32";
-         }
-         function total() {
-             document.getElementById("demo").innerHTML = 32+29;
-         }
-         </script>
-    <button style="color:firebrick" type="button" class="btn" onclick="economico()">Economico</button>
-    <button style="color:firebrick" type="button" class="btn" onclick="sanjuan()">San Juan</button>
-    <button style="color:firebrick" type="button" class="btn" onclick="total()">Total</button>
-<p id="demo"></p>
+  <link rel="stylesheet" type="text/css" href="hola.css">
 
-    
+</head>
+    <body style="background-image:url('tiendala.JPG')">
+
+    <center>
+    <h1 class="hh">Bienvenido al sistema de abarrotes "La tiendita".</h1>
+    <p class="huevo"><b>HUEVO</b></p>
+   
+    <button class="btn" onclick="economico()">Economico</button>
+    <button class="btn" onclick="sanjuan()">San Juan</button>
+   
+    <p class="demo" id="_economicos"></p>
+    <p class="demo" id="_sanjuan"></p>
+    <p class="demo"  id="_total"></p>
+    </center>
     </body>
     
-
-
-
 
 </html>
